@@ -36,7 +36,7 @@ while True:
         find = input("Who do you want to find?\nType in their name: ").lower()
         if find in lowercase:
             originalname = lowercase[find]
-            print(f"{originalname}'s phone number is {contacts[originalname][0]}")
+            print(f"{originalname}'s phone number is {contacts[originalname][0]}\n")
         else:
             print("Contact not found.\n")
 
@@ -47,7 +47,7 @@ while True:
             originalname = lowercase[delete]
             contacts.pop(originalname)
             lowercase.pop(delete)
-            print("Contact deleted!")
+            print("Contact deleted!\n")
         else:
             print("Contact not found.\n")
 
