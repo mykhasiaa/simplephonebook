@@ -4,7 +4,7 @@
 #creating phonebook
 contacts = {}
 
-#допоміжний словник для неуважних користувачів (допоміг ChatGPT)
+#допоміжний словник для неуважних користувачів (допоміг ChatGPT), я не додумалась
 lowercase = {name.lower(): name for name in contacts}
 
 while True:
