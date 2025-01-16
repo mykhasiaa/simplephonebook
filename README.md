@@ -1,2 +1,2 @@
 # simplephonebook
-Homewor, a simple phonebook
+Homework, a simple phonebook
